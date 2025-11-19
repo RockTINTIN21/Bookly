@@ -1,0 +1,34 @@
+.primary, .secondary {
+    border-radius: 30px;
+    border: none;
+    font-size: var(--fs-base);
+    height: 40px;
+    padding: 0 1.5em;
+    cursor: pointer;
+}
+
+.primary {
+    background: var(--accent);
+    color: white;
+
+    &:hover {
+        background: var(--accent-hover);
+    }
+
+    &:active {
+        background: var(--accent-active);
+    }
+}
+
+.secondary {
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+
+    &:hover {
+        background: var(--bg-secondary-hover);
+    }
+
+    &:active {
+        background: var(--bg-secondary-active);
+    }
+}

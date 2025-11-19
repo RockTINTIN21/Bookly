@@ -1,0 +1,1 @@
+A modern booking and scheduling platform built with React, TypeScript, Redux Toolkit, NestJS, and PostgreSQL. It features secure authentication, real-time updates, and a clean, scalable architecture designed for performance and maintainability.
